@@ -1,5 +1,7 @@
 package com.company.interfases;
 
+import com.company.Coche;
+
 public class InterfacesMain {
 
     public static void main(String[] args) {
@@ -7,7 +9,8 @@ public class InterfacesMain {
     CocheService service1 = new CocheServiceClassicImpl();
     CocheService service2 = new CocheServiceSportImpl();
 
-    minuto 05: 00 Interfaces
+    Coche coche1 = service1.crearCocheDemo();
+    Coche coche2 = service2.crearCocheDemo();
 
     }
 }
