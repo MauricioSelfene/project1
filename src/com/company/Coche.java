@@ -1,6 +1,6 @@
 package com.company;
 
-public class Coche {
+public abstract class Coche {
 
         // Atributos
         String color;
